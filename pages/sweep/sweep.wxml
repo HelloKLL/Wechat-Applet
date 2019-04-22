@@ -1,0 +1,7 @@
+<!--pages/sweep/sweep.wxml-->
+<view>
+  <text class="sweep_tip" bindtap="getGloadbal">点击下图扫一扫11</text>
+  <view class='sweep_view'>
+    <button size="default" type="warn" bindtap="codeEvent">Sweep Code</button>
+  </view>
+</view>

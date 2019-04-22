@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/sweep/sweep",
+    "pages/home/home",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#7f8389",
+    "selectedColor":"#ec1455",
+    "backgroundColor":"#ffffff",
+    "borderStyle":"white",
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+        "text":"Home",
+        "iconPath":"./images/home.png",
+        "selectedIconPath":"./images/home2.png"
+      },
+      {
+        "pagePath": "pages/sweep/sweep",
+        "text": "Sweep",
+        "iconPath": "./images/sweep.png",
+        "selectedIconPath": "./images/sweep2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "My",
+        "iconPath": "./images/my.png",
+        "selectedIconPath": "./images/my2.png"
+      }
+    ]
+  }
+}

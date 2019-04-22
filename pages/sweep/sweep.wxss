@@ -1,0 +1,12 @@
+/* pages/sweep/sweep.wxss */
+.sweep_tip{
+  display: block;
+  text-align: center;
+  font-size: 32rpx;
+  color:#ec1455;
+  padding: 50rpx 0 100rpx;
+}
+.sweep_view{
+  width:50%;
+  margin:0 auto;
+}
